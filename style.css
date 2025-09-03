@@ -1,0 +1,71 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+  background: #222;
+  padding: 15px 50px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  text-align: center;
+}
+.hero h1 span {
+  color: yellow;
+}
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: #0072ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* About Section */
+.about {
+  padding: 50px;
+  text-align: center;
+}
+.about h2 {
+  margin-bottom: 20px;
+}
+.about .profile {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
